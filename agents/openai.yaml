@@ -1,0 +1,7 @@
+interface:
+  display_name: "数据分析工作流"
+  short_description: "清洗分析表格数据并输出中文业务结论"
+  default_prompt: "Use $data-analysis-youtube-playbook to clean, analyze, and summarize this dataset into a Chinese business-ready report."
+
+policy:
+  allow_implicit_invocation: true
